@@ -2,6 +2,7 @@ var readlineSync = require('readline-sync');
 //require loads npm package "readline"
 
 var ordinal = function(digit) {
+	
 	var digitNum = Number(digit);
 	//convert the value & store it in variable "digitNum"
 	var lastDigit = digitNum % 10;
@@ -32,5 +33,3 @@ var input = readlineSync.question('Enter a digit:');
 var value = ordinal(input);
 
 console.log(value);
-
-
