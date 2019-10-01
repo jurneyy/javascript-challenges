@@ -34,4 +34,3 @@ var value = ordinal(input);
 
 console.log(value);
 
-//

@@ -11,4 +11,4 @@ var degreesCelsius = (degreesNum - 32) * 5/9;
 //formula to convert Fahrenheit to Celsius
 
 console.log('It is ' + degreesCelsius + ' degrees Celsius!');
-//displays the answer.
+//displays the answer
