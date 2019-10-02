@@ -9,6 +9,8 @@ Card.prototype.outputCard = function(){
   console.log(this.rank + " of " + this.suit);
 }
 
+//calling prototype on an object grants you access to the object's prototype.
+
 
 var fourOfDiamonds = new Card(8, "diamonds");
 fourOfDiamonds.outputCard();
